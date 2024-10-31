@@ -1,0 +1,38 @@
+/* Custom styles for navbar */
+.navbar-custom {
+    background-color: #8fa2e7; /* Light blue background color for navbar */
+    padding: 0.6rem 1rem;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    color: #1B3B6F;
+}
+.navbar-brand img {
+    height: 30px; /* Adjust logo size */
+    margin-right: 10px;
+}
+.search-bar {
+    width: 350px;
+    text-align: right;
+    background-color: rgba(244, 241, 236, 0.9)  ;
+    border-radius: 15px;
+}
+.nav-link {
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.btn-login {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
+.btn-signup {
+    background-color: #1B3B6F;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
