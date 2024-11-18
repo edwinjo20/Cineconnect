@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
 /* Global styles */
+
 body {
-    background: rgb(0,51,102);
     background: linear-gradient(159deg, rgba(0,51,102,1) 50%, rgb(58, 108, 184) 70%);
-        
     color: hsl(0, 0%, 100%);
     backdrop-filter: blur(10px);
 }
@@ -17,16 +16,17 @@ body, input, button {
 /* Hide scrollbars */
 *::-webkit-scrollbar {
     display: none;
+
 }
 
 /* Navbar custom styles */
 .navbar-custom {
-    background: rgba(0, 0, 0, 0.5); /* Dark transparent background */
+    background: rgba(0, 0, 0, 0.354); /* Dark transparent background */
     backdrop-filter: blur(5px);
     position: absolute;
     width: 100%;
-    z-index: 10;
-    padding: 1rem 3rem;
+    z-index: 1;
+    padding: 1rem 2rem;
 }
 
 .navbar-toggler {
@@ -36,8 +36,8 @@ body, input, button {
 .logo {
     margin-top: -7px;
     height: 50px;
+    background-color: rgba(87, 36, 36, 0.1);
 }
-
 .navbar-brand, 
 .nav-link, 
 .btn-login, 
@@ -150,8 +150,8 @@ body, input, button {
 
 /* Movie card styles */
 .movie-card { 
-    background-color: #000000; /* Black background for the card */
-    border-radius: 20px;      /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.70); /* Black with 66% opacity */
+    border-radius: 20px;    
     overflow: hidden;         /* Ensure no overflow from child elements */
     box-shadow: 9px 20px 20px rgba(0, 0, 0, 0.8); /* Subtle shadow for depth */
     text-align: center;       /* Center-align text inside the card */
